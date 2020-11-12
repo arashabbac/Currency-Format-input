@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Format Currency Number</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="card w-75 mx-auto">
+            <div class="card-header bg-white py-3 text-center">
+                <h2>
+					          Currency Format Input
+				        </h2>
+            </div>
+            <div class="card-body">
+                <form method="get" action="">
+                    <div class="form-row">
+                      <div class="col-12">
+                        Enter Your Number:
+                      </div>
+                      <div class="col-12 mt-3">
+                        <input type="text" data-type="currency" class="form-control visiblePrice" placeholder="Enter Number">
+                        <input type="hidden" class="hiddenPrice" name="yourNumber">
+                      </div>
+                    </div>
+                    <div class="col-12 text-right mt-3 p-0">
+                        <input class="btn btn-success" type="submit" value="Send Your Number" />
+                    </div>
+                  </form>
+                  <div class="col-12 mt-3 text-left p-0">
+                      <p>
+                          Press the button and look at the address bar to see the right number sent as an integer not an string!
+                      </p>
+                      <small>
+                          <i>
+                              Developed by Hossein Abbasi
+                          </i>
+                      </small>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/formatnumber.js"></script>
+</body>
+</html>
